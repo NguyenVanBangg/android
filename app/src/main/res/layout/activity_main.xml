@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/dca51391bae775b92cf6">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thời gian còn lại: "
+        android:textColor="#F60707"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtTime"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#F10E0E"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/btn_rutbai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:backgroundTint="#1E32E9"
+        android:text="Rút bài"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/nguoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Người chơi: "
+
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/diemN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" 0"
+        android:gravity="center"
+
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgView1"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imgView2"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imgView3"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/matlunglabai" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:gravity="center"
+
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtKetQuamay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Kết quả"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgView1may"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imgView2may"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/matlunglabai" />
+
+        <ImageView
+            android:id="@+id/imgView3may"
+            android:layout_width="80dp"
+            android:layout_height="100dp"
+            android:src="@drawable/matlunglabai" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/diemM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/may"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Máy: "
+
+        android:textColor="#FFF3F3"
+        android:textSize="24sp" />
+
+</LinearLayout>
